@@ -20,6 +20,14 @@ export default function TestimonialsGallery() {
         <p className="mt-4 text-lg leading-8 text-slate-300">
           Koleksi hasil kerja, chat pelanggan, dan bukti visual yang disajikan dengan tampilan modern dan aman untuk dilihat.
         </p>
+        <div className="mt-6 rounded-3xl border border-cyan-500/20 bg-cyan-500/5 p-4 text-sm text-cyan-100">
+          <p className="font-semibold">Tips tambah testimoni cepat:</p>
+          <ol className="mt-2 list-decimal space-y-1 pl-5 text-slate-200">
+            <li>Upload file JPG/PNG ke folder <code>public/testimonials</code>.</li>
+            <li>Tambahkan entri baru di <code>src/data/testimonials.ts</code> dengan path <code>/testimonials/nama-file.jpg</code>.</li>
+            <li>Isi nama, kategori, tanggal, dan deskripsi singkat.</li>
+          </ol>
+        </div>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
