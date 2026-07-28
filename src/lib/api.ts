@@ -11,6 +11,11 @@ export const API = {
   delete: (id: string) => `${BASE_URL}/api/session/${id}`,
 };
 
+const API_KEY = process.env.NEXT_PUBLIC_API_KEY || "ourin_panel_key";
+const API_SECRET = process.env.NEXT_PUBLIC_API_SECRET || "ourin_panel_secret";
+const API_AUTH_SCHEME = process.env.NEXT_PUBLIC_API_AUTH_SCHEME || "x-api-key";
+const API_TOKEN = process.env.NEXT_PUBLIC_API_TOKEN;
+
 type BotAction = "refresh" | "restart" | "disconnect" | "delete";
 
 export type BotStatusResponse = {
@@ -23,12 +28,26 @@ export type BotStatusResponse = {
 };
 
 async function fetchJson<T>(url: string, init: RequestInit = {}) {
+  const headers = new Headers(init.headers);
+  headers.set("Content-Type", "application/json");
+
+  if (API_TOKEN) {
+    headers.set("Authorization", `Bearer ${API_TOKEN}`);
+  } else if (API_KEY) {
+    if (API_AUTH_SCHEME.toLowerCase() === "apikey") {
+      headers.set("Authorization", `ApiKey ${API_KEY}`);
+    } else {
+      headers.set("x-api-key", API_KEY);
+    }
+  }
+
+  if (API_SECRET) {
+    headers.set("x-api-secret", API_SECRET);
+  }
+
   const response = await fetch(url, {
     ...init,
-    headers: {
-      "Content-Type": "application/json",
-      ...(init.headers ?? {}),
-    },
+    headers,
     cache: "no-store",
   });
 
