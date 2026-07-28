@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" rx="48" fill="#07111f"/>
+  <rect x="44" y="44" width="1112" height="1412" rx="36" fill="url(#g)" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="900" cy="360" r="220" fill="#22d3ee" fill-opacity="0.18"/>
+  <rect x="140" y="180" width="520" height="270" rx="24" fill="#0f172a" fill-opacity="0.9"/>
+  <rect x="180" y="220" width="210" height="24" rx="12" fill="#38bdf8"/>
+  <rect x="180" y="270" width="280" height="20" rx="10" fill="#cbd5e1" fill-opacity="0.85"/>
+  <rect x="180" y="310" width="240" height="20" rx="10" fill="#cbd5e1" fill-opacity="0.7"/>
+  <rect x="140" y="520" width="920" height="700" rx="28" fill="#020617" fill-opacity="0.95"/>
+  <rect x="180" y="580" width="260" height="26" rx="13" fill="#f8fafc" fill-opacity="0.9"/>
+  <rect x="180" y="640" width="440" height="20" rx="10" fill="#94a3b8"/>
+  <rect x="180" y="690" width="380" height="20" rx="10" fill="#94a3b8"/>
+  <rect x="180" y="760" width="760" height="280" rx="24" fill="#0f172a" stroke="#334155"/>
+  <rect x="220" y="800" width="200" height="18" rx="9" fill="#22d3ee"/>
+  <rect x="220" y="840" width="320" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="220" y="880" width="280" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="220" y="920" width="190" height="18" rx="9" fill="#e2e8f0"/>
+  <text x="600" y="1320" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#f8fafc">Nexora</text>
+  <text x="600" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#94a3b8">Testimoni Joki Game</text>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>

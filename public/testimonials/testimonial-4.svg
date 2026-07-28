@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" rx="48" fill="#06111d"/>
+  <rect x="44" y="44" width="1112" height="1412" rx="36" fill="url(#g)" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="320" cy="1120" r="240" fill="#38bdf8" fill-opacity="0.15"/>
+  <rect x="130" y="180" width="940" height="320" rx="28" fill="#0f172a"/>
+  <rect x="180" y="240" width="270" height="24" rx="12" fill="#f8fafc"/>
+  <rect x="180" y="290" width="430" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="180" y="325" width="360" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="130" y="560" width="940" height="620" rx="28" fill="#020617" fill-opacity="0.95"/>
+  <rect x="180" y="620" width="220" height="22" rx="11" fill="#f8fafc"/>
+  <rect x="180" y="675" width="440" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="180" y="710" width="380" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="180" y="810" width="760" height="250" rx="24" fill="#111827" stroke="#334155"/>
+  <rect x="220" y="860" width="200" height="18" rx="9" fill="#38bdf8"/>
+  <rect x="220" y="900" width="300" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="220" y="940" width="250" height="18" rx="9" fill="#e2e8f0"/>
+  <text x="600" y="1320" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#f8fafc">Nexora</text>
+  <text x="600" y="1380" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#94a3b8">Testimoni Premium Access</text>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+</svg>
