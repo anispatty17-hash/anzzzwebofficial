@@ -12,7 +12,6 @@ import {
   Rocket,
   ShieldCheck,
   Sparkles,
-  Star,
   Store,
   TrendingUp,
   Webhook,
