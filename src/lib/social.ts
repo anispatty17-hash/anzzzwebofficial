@@ -1,6 +1,6 @@
 export const socialLinks = {
-  website: "https://example.com",
-  whatsapp: "https://wa.me/6281234567890",
+  website: "https://anzzzjoki.vercel.app",
+  whatsapp: "https://wa.me/6281338838631",
   discord: "https://discord.com/invite/example",
   instagram: "https://instagram.com",
   youtube: "https://youtube.com/@4nzzz2003?si=suH8_B7SaugBYHoE",
